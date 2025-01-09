@@ -367,7 +367,44 @@
             color: #ffcccb;
             text-decoration: none;
         }
-		
+		@media screen and (max-width: 768px) {
+    .container-section {
+        width: 95%;
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .profile-pic {
+        width: 250px;
+        height: 350px;
+    }
+
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video-links img {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-section {
+        width: 98%;
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 300px;
+    }
+
+    .social-icons a {
+        margin: 5px;
+    }
+}
 
     </style>
 </head>
